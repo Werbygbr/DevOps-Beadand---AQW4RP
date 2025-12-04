@@ -21,3 +21,7 @@ docker build -t hello-wasm:v1 .
 ### Konténer futtatása
 
 docker run -p 8080:80 hello-wasm:v1
+
+### Innen futattható
+
+http://localhost:8080
