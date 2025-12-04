@@ -1029,3 +1029,4 @@ E:\GDE\HelloBlazor\obj\Debug\net8.0\HelloBlazor.dll
 E:\GDE\HelloBlazor\obj\Debug\net8.0\refint\HelloBlazor.dll
 E:\GDE\HelloBlazor\obj\Debug\net8.0\HelloBlazor.pdb
 E:\GDE\HelloBlazor\obj\Debug\net8.0\ref\HelloBlazor.dll
+E:\GDE\HelloBlazor\obj\Debug\net8.0\HelloBlazor.sourcelink.json
