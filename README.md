@@ -25,3 +25,16 @@ docker run -p 8080:80 hello-wasm:v1
 ### Innen futattható
 
 http://localhost:8080
+
+
+## Dev Container használata (cmd-vel)
+
+A projekt tartalmaz egy fejlesztői konténer konfigurációt a `.devcontainer` mappában.
+
+A Dev Container célja, hogy a Blazor WASM alkalmazás egy elkülönített, reprodukálható
+Docker alapú környezetben is buildelhető és futtatható legyen.
+
+### Image buildelése
+
+```bash
+docker build -f .devcontainer/Dockerfile -t hello-devcontainer .

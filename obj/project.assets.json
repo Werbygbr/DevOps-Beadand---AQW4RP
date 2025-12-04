@@ -1842,19 +1842,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gabor\\.nuget\\packages\\": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GDE\\HelloBlazor\\HelloBlazor.csproj",
+      "projectUniqueName": "/workspace/HelloBlazor.csproj",
       "projectName": "HelloBlazor",
-      "projectPath": "E:\\GDE\\HelloBlazor\\HelloBlazor.csproj",
-      "packagesPath": "C:\\Users\\Gabor\\.nuget\\packages\\",
-      "outputPath": "E:\\GDE\\HelloBlazor\\obj\\",
+      "projectPath": "/workspace/HelloBlazor.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/workspace/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gabor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1927,7 +1927,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
