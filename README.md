@@ -4,6 +4,14 @@
 A projekt buildeléséhez szükséges:
 - .NET 8 SDK (https://dotnet.microsoft.com/download)
 
+## Build
+
+### Előfeltételek
+
+A projekt buildeléséhez szükséges:
+
+- .NET 8 SDK (https://dotnet.microsoft.com/download)
+
 ### Build parancs
 
 A projekt gyökerében futtatható:
@@ -38,3 +46,8 @@ Docker alapú környezetben is buildelhető és futtatható legyen.
 
 ```bash
 docker build -f .devcontainer/Dockerfile -t hello-devcontainer .
+
+### A projekt futtatása Dev Containerben
+
+docker run -it --rm -p 8080:8080 -v FULL/PATH/TO/REPO:/workspace hello-devcontainer
+
